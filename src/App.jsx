@@ -39,6 +39,7 @@ import ProductShowcase from "./components/ProductShowcase";
 import ShoppingCart from "./components/ShoppingCart";
 import CtaSection from "./components/CtaSection";
 import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
 
 import imgEthiopianHarrar from "./assets/Ethiopian-Harrar-Bag.png";
 import imgColombianSupremo from "./assets/Colombian-Supremo-Bag.png";
@@ -75,7 +76,7 @@ const productCatalog = [
 	{
 		id: 1,
 		name: "Ethiopian Harrar",
-		origin: "Ethiopa",
+		origin: "Ethiopia",
 		price: 18.99,
 		roast: "Medium",
 		notes: "Blueberry, dark chocolate, wine",
@@ -240,7 +241,7 @@ export default function App() {
 
 			{/* CONTACT */}
 			<section className="bg-cta" id="contact">
-
+				<ContactSection />
 			</section>
 
 			{/* FOOTER */}
