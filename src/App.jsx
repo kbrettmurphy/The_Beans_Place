@@ -40,6 +40,7 @@ import ShoppingCart from "./components/ShoppingCart";
 import CtaSection from "./components/CtaSection";
 import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
+import FooterSection from "./components/FooterSection";
 
 import imgEthiopianHarrar from "./assets/Ethiopian-Harrar-Bag.png";
 import imgColombianSupremo from "./assets/Colombian-Supremo-Bag.png";
@@ -246,7 +247,7 @@ export default function App() {
 
 			{/* FOOTER */}
 			<section className="bg-footer">
-
+				<FooterSection />
 			</section>
 		</div>
 	);
